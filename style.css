@@ -1,0 +1,25 @@
+h1{
+    color: #E50914;
+    text-decoration: wavy;
+    font-family: 'Bebas Neue', cursive;
+    Font-size: 100px;
+    text-align: center;
+    text-decoration: dashed;
+}
+p{
+    color: aliceblue;
+}
+ol{
+    color: aliceblue;
+}
+a{
+    border-image: fill;
+    width: 1cm;
+}
+body {
+    background-color: black;
+}
+a:link{
+    width: 10cm;
+    height: 10cm;
+}
