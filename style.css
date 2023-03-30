@@ -2,24 +2,69 @@ h1{
     color: #E50914;
     text-decoration: wavy;
     font-family: 'Bebas Neue', cursive;
-    Font-size: 100px;
+    Font-size: 250px;
     text-align: center;
     text-decoration: dashed;
+    letter-spacing: 20px;
+    font-weight: 100;
+    text-shadow: 2px 1px #242526
 }
 p{
     color: aliceblue;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-ol{
-    color: aliceblue;
-}
-a{
-    border-image: fill;
-    width: 1cm;
-}
+
 body {
     background-color: black;
 }
-a:link{
-    width: 10cm;
-    height: 10cm;
+.realityshow{
+    width: 45vw;
+    height: 500px;
+    border-radius: 5%;
+    object-fit: cover;
+    opacity: 1;
+    transition: all 250ms ease;
+}
+
+.illustration {
+    width: 45vw;
+    height: 500px;
+    display: block;
+    margin-bottom: 30px;
+}
+.realityshow:hover {
+    opacity: 0;
+}
+
+.relative { 
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+.membres{
+    text-align: center;
+}
+#question{
+    text-decoration: underline;
+    color: orange;
+}
+video{
+    margin: 0 auto;
+    width: 1050px;
+    display: block;
+}
+div{
+  padding: auto;  
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.description{
+    margin-bottom: 30px;
 }
