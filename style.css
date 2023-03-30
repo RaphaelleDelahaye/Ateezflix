@@ -68,3 +68,7 @@ div{
 .description{
     margin-bottom: 30px;
 }
+.titre{
+    color: orange;
+    text-decoration: underline;
+}
